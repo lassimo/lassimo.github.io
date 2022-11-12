@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- Tämä on minun portolioni -->
+<html>
+
+<head>
+  <!-- charset määrittää merkistön -->
+  <meta charset="UTF-8" />
+  <!-- viewport on responsiivisuuden perusta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Lassin portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- google-fontit saa tällä tavalla käyttöönsä -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header osassa on yleensä valikko eli nav, jossa listana linkit -->
+  <header>
+    <div id="logo">
+      <a href="https://public.bc.fi/s2001020/portfolio/">Lassin portfolio</a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#past">Menneisyys</a></li>
+        <li><a href="#present">Nykyisyys</a></li>
+        <li><a href="#future">Tulevaisuus</a></li>
+        <li><a href="#footer">Yhteystiedot</a></li>
+        <li><a href="galleria.html">Galleria</a></li>
+        <li><a href="osaan.html">Osaan</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- Main osassa on sivun sisältö. Voi olla section tai div osia myös -->
+    <section id="hero-banner">
+      <div class="container">
+        <h1>Tervetuloa sivulleni</h1>
+        <p>
+          Olen tieto- ja viestintätekniikan oppilas Business College Helsingissä.
+      </div>
+    </section>
+    <section id="past">
+      <div class="container">
+        <h2>Menneisyys/harrastukset</h2>
+        <div class="past_boxes">
+          <div class="box">
+            <img src="https://source.unsplash.com/1600x900/?soccer" alt="time">
+            <h3>Jalkapallo</h3>
+            <p>Olen pelannut jalkapalloa 10-vuotta monissa eri seuroissa.</p>
+            <a href="https://fcespoo.fi/">Seura jossa lopetin jalkapallon</a>
+          </div>
+          <div class="box">
+            <img src="https://source.unsplash.com/1600x900/?school" alt="time">
+            <h3>Ruusutorpan koulu</h3>
+            <p>Kävin Ruusutorpan peruskoulun.</p>
+            <a href="https://www.espoo.fi/fi-fi/Kasvatus_ja_opetus/Perusopetus/Peruskoulut/Yhtenaiset_peruskoulut/Ruusutorpan_koulu/Yhteystiedot">koulun yhteystiedot</a>
+          </div>
+          <div class="box">
+            <img src="https://source.unsplash.com/1600x900/?city" alt="time">
+            <h3>Asuinpaikat</h3>
+            <p>Olen asunut Leppävaarassa ja nykyisin asun Lintuvaarassa.</p>
+          </div>
+      </div>
+    </div>
+    </section>
+    <section id="present">
+      <div class="container">
+        <h2>Nykyisyys</h2>
+        <img src="https://source.unsplash.com/1600x900/?c63s" alt="time" />
+        <h3>Tietoa minusta</h3>
+        <p>
+          Kuuntelen paljon musiikkia ja vietän paljon aikaa ulkona kavereitten kanssa. Isoin kiinostuksen kohde on autot.
+        </p>
+        <h3>Kiinostuksen kohteet</h3>
+      <div class="hobbies_group">
+        <div class="hobby">
+          <i class="material-icons md-48">directions_car</i>
+          <p>Cars</p>
+        </div>
+        <div class="hobby">
+          <i class="material-icons md-48">directions_car</i>
+          <p>Cars</p>
+        </div>
+        <div class="hobby">
+          <i class="material-icons md-48">directions_car</i>
+          <p>Cars</p>
+        </div>
+        <div class="hobby">
+          <i class="material-icons md-48">directions_car</i>
+          <p>Cars</p>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section id="future">
+      <div class="container">
+        <h2>Tulevaisuus</h2>
+        <div class="future-content">
+        <img src="https://source.unsplash.com/1600x900/?study" alt="future" />
+        <p>
+         Haluaisin päästä tulevaisuudessa jatko-opiskelemaan. 
+        </p></div>
+      </div>
+    </section>
+  </main>
+  <footer id="footer">
+    <form>
+      <div class="form-group">
+        <label for="name">Nimesi</label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <div class="form-group">
+        <label for="email">Sähköpostiosoitteesi</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div class="form-group">
+        <label for="message">Viestisi minulle</label>
+        <textarea name="message" id="message"></textarea>
+      </div>
+      <button type="submit">Lähetä</button>
+    </form>
+    <p>Copyright &copy; Minun Websivu 2020</p>
+  </footer>
+</body>
+
+</html>

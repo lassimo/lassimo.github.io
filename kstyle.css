@@ -1,0 +1,24 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 245, 241);
+    font-family: "Open Scans Condensed", sens-serif;
+    color: #333;
+}
+
+h1 {
+    line-height: 32x;
+    margin-bottom: 32px;
+}
+section {
+    padding: 32px;
+}
+
+img {
+    height: 200px;
+    width: auto;
+}

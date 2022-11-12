@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- Tämä on minun portolioni -->
+<html>
+
+<head>
+  <!-- charset määrittää merkistön -->
+  <meta charset="UTF-8" />
+  <!-- viewport on responsiivisuuden perusta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Lassin portfolio - Galleria</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="grid.css" />
+  <!-- google-fontit saa tällä tavalla käyttöönsä -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Header osassa on yleensä valikko eli nav, jossa listana linkit -->
+  <header>
+    <div id="logo">
+      <a href="https://public.bc.fi/s2001020/portfolio/">Lassin portfolio</a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html#past">Menneisyys</a></li>
+        <li><a href="index.html#present">Nykyisyys</a></li>
+        <li><a href="index.html#future">Tulevaisuus</a></li>
+        <li><a href="index.html#footer">Yhteystiedot</a></li>
+        <li><a href="galleria.html">Galleria</a></li>
+        <li><a href="osaan.html">Osaan</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="gallery">
+      <div class="container">
+        <h2>Galleria</h2>
+        <p>Kuvat: <a target="_blank" href="https://unsplash.com/">Unsplash</a></p>
+        <div class="gallery-group">
+          <div class="grid-item-1 grid-div">
+            <img class="grid-item" src="https://source.unsplash.com/collection/1132634/1600x900" alt="random pic from unsplash">
+          </div>
+          <div class="grid-item-2 grid-div">
+            <img class="grid-item" src="https://source.unsplash.com/collection/306252/1600x900" alt="random pic from unsplash">
+          </div>
+          <div class="grid-item-3 grid-div">
+            <img class="grid-item" src="https://source.unsplash.com/collection/1240111/1600x900" alt="random pic from unsplash">
+          </div>
+          <div class="grid-item-4 grid-div">
+            <img class="grid-item" src="https://source.unsplash.com/collection/136493/1600x900" alt="random pic from unsplash">
+          </div>
+          <div class="grid-item-5 grid-div">
+           <img class="grid-item" src="https://source.unsplash.com/collection/261936/1600x900" alt="random pic from unsplash">
+          </div>
+          <div class="grid-item-6 grid-div">
+            <img class="grid-item" src="https://source.unsplash.com/collection/1394721/1600x900" alt="random pic from unsplash">
+          </div>
+          <div class="grid-item-7 grid-div">
+           <img class="grid-item" src="https://source.unsplash.com/collection/46/1600x900" alt="grid-item random pic from unsplash">
+          </div>
+          <div class="grid-item-8 grid-div">
+           <img class="grid-item" src="https://source.unsplash.com/collection/54/1600x900" alt="random pic from unsplash">
+          </div>
+          <div class="grid-item-9 grid-div">
+            <img class="grid-item" src="https://source.unsplash.com/collection/827807/1600x900" alt="random pic from unsplash">
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="footer">
+    <form>
+      <div class="form-group">
+        <label for="name">Nimesi</label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <div class="form-group">
+        <label for="email">Sähköpostiosoitteesi</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div class="form-group">
+        <label for="message">Viestisi minulle</label>
+        <textarea name="message" id="message"></textarea>
+      </div>
+      <button type="submit">Lähetä</button>
+    </form>
+    <p>Copyright &copy; Minun Websivu 2020</p>
+  </footer>
+</body>
+
+</html>
