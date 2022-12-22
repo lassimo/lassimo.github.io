@@ -19,47 +19,56 @@
 </head>
 
 <body>
-  <!-- Header osassa on yleensä valikko eli nav, jossa listana linkit -->
-  <header>
-    <nav class="navbar navbar-expand-sm justify-content-end">
-      <div class="container-fluid">
-        <a  class="navbar-brand" href="index.html">Lassi Mört</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
-            <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-            <li class="nav-item"><a class="nav-link" href="galleria.html">Kuva galleria</a></li>
-            <li class="nav-item"><a class="nav-link" href="yhteystiedot.html">Yhteystiedot</a></li>
-          </ul>
-        </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <header>
+          <nav class="navbar navbar-expand">
+            <div class="container-fluid">
+              <a  class="navbar-brand" href="index.html">Lassi Mört</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+                  <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                  <li class="nav-item"><a class="nav-link" href="galleria.html">Galleria</a></li>
+                  <li class="nav-item"><a class="nav-link" href="yhteystiedot.html">Yhteystiedot</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
       </div>
-    </nav>
-  </header>
-  <main>
-    <!-- Main osassa on sivun sisältö. Voi olla section tai div osia myös -->
-    <section id="hero-banner">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-3"></div>
-          <div class="col-sm-6">
+    </div>
+    <div class="row hero-banner">
+      <div class="col-2">
+
+      </div>
+      <div class="col-8">
+        <main>
+          <section>
             <h1>Tervetuloa sivulleni</h1>
             <p>
               Olen tieto- ja viestintätekniikan oppilas Business College Helsingissä. 
               <br />
               Sivun oikealta yläkulmasta löytyy enemmän tietoa.
             </p>
-          </div>
-          <div class="col-sm-3"></div>
-        </div>
+          </section>
+        </main>
       </div>
-    </section>
-  </main>
-  <footer id="footer">
-    <p>Copyright &copy; Minun Websivu 2022</p>
-  </footer>
-</body>
+      <div class="col-2">
 
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <footer id="footer">
+          <p>&copy; Lassi Mört 2022</p>
+        </footer>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
