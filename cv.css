@@ -8,5 +8,12 @@ table {
 
 h2 {
     margin-top: 2rem;
+    text-transform: uppercase;
 
+}
+
+@media (max-width: 575.98px) {
+    .timespan {
+        text-align: left;
+    }
 }
