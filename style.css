@@ -34,7 +34,7 @@ section {
   background-color: var(--dark-color);
   opacity: 0.8;
   margin-top: 5vh;
-  margin-bottom: 5vh;
+  margin-bottom: 9rem;
   min-height: 50vh;
   width: 100%;
   padding: 3rem;
@@ -45,8 +45,7 @@ section {
 footer {
   background: var(--dark-color);
   text-align: center;
-  color: #fff;
-  padding: 2rem;
+  color: var(--background-color);
 }
 
 h1, h2, h3, p {
@@ -87,8 +86,6 @@ img {
 
 
 /* Footer */
-
-
 
 footer .form-group {
   margin: 2rem;
@@ -131,7 +128,7 @@ footer p {
 /* Media queries (NB! this is desktop first approach) */
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+/* @media (max-width: 575.98px) {
   header {
     display: block;
     position: relative;
@@ -189,4 +186,4 @@ footer p {
     width: 100%;
     margin-top: 0.5rem;
   }
-}
+} */
